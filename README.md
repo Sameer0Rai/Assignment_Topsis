@@ -102,6 +102,33 @@ pip install Topsis-Sameer-102303773
 topsis input.csv "1,1,1,2" "+,+,-,+" output.csv
 ```
 ---
+
+## 🌐 Web Service 
+
+In addition to the command-line and packaged implementation, this assignment also includes a **web-based TOPSIS service** developed using **Flask**.
+
+The web service allows users to:
+- Upload a CSV file  
+- Provide weights and impacts  
+- Enter an email address  
+- Receive the TOPSIS result file via **email**
+
+The server processes the TOPSIS algorithm on the backend and sends the generated output CSV file to the user.  
+The working of the web service is demonstrated through screenshots included in the repository.
+
+---
+
+### 🖥️ Web Interface Screenshot  
+<!-- Replace img1.png with your actual UI screenshot -->
+![Web Interface Screenshot](Web-Service/Screenshots/img1.png)
+
+---
+
+### 📧 Result Email Screenshot  
+<!-- Replace img2.png with your actual email screenshot -->
+![Email Result Screenshot](Web-Service/Screenshots/img2.png)
+
+---
 ###❗ Error Handling
 
 The implementation includes validation for:
