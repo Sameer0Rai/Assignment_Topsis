@@ -15,14 +15,14 @@ The assignment is implemented using **Python 🐍** and includes:
 ---
 
 ## 📁 Repository Structure
-
+```
 ├── README.md
 ├── Topsis_Assignment.py
 ├── Topsis_Assignment.ipynb
 ├── Package_Test.ipynb
 ├── data1234.csv
 ├── output.csv
-
+```
 
 ---
 
@@ -67,12 +67,12 @@ The TOPSIS algorithm in this assignment follows these steps:
 - Minimum **three columns** are required
 
 ### Example Input
-
+```
 Fund Name,P1,P2,P3,P4
 M1,0.67,0.45,6.5,42.6
 M2,0.60,0.36,3.6,53.3
 M3,0.82,0.67,3.8,63.1
-
+```
 
 ---
 
