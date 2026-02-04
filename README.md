@@ -22,6 +22,21 @@ The assignment is implemented using **Python 🐍** and includes:
 ├── Package_Test.ipynb
 ├── data1234.csv
 ├── output.csv
+├── Package/
+│ ├── setup.py
+│ ├── README.md
+│ ├── LICENSE
+│ └── topsis/
+│ ├── init.py
+│ └── topsis.py
+└── Web-Service/
+├── app.py
+├── topsis_logic.py
+├── templates/
+│ └── index.html
+└── Screenshots/
+├── img1.png
+└── img2.png
 ```
 
 ---
@@ -129,7 +144,7 @@ The working of the web service is demonstrated through screenshots included in t
 ![Email Result Screenshot](Web-Service/Screenshots/img2.png)
 
 ---
-###❗ Error Handling
+##❗ Error Handling
 
 The implementation includes validation for:
 
@@ -144,7 +159,7 @@ Mismatch in number of weights, impacts, and criteria
 Invalid impact values (only + or - allowed)
 ---
 
-###📚 Technologies Used
+##📚 Technologies Used
 
 Python 3.x 🐍
 
@@ -155,8 +170,8 @@ NumPy
 Jupyter Notebook
 
 PyPI
-
-###🏁 Conclusion
+---
+##🏁 Conclusion
 
 This repository demonstrates a complete and practical implementation of the TOPSIS decision-making technique using Python. It fulfills all requirements of the assignment, including algorithm implementation, testing, and packaging for reuse.
-
+---
