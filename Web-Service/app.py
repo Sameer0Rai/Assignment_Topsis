@@ -12,8 +12,8 @@ OUTPUT_FOLDER = "outputs"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-EMAIL_ADDRESS = "samkr2340005@gmail.com"
-EMAIL_PASSWORD = "lpnskizyykatuhfr"
+EMAIL_ADDRESS = "<<Email>>"
+EMAIL_PASSWORD = "<<PassCode>>"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -54,3 +54,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
